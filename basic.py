@@ -4,6 +4,7 @@ from textblob import TextBlob
 L = Instaloader()
 
 url = input("Paste the url: ")
+# Negative Post: https://www.instagram.com/p/BsbFhcHFvha/
 
 code = url.split("/")[len(url.split("/")) - 2]
 
