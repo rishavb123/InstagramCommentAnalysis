@@ -1,6 +1,5 @@
 from instaloader import Instaloader, Post
 from textblob import TextBlob
-import time
 import sys
 
 L = Instaloader()
