@@ -31,4 +31,4 @@ for c in post.get_comments():
         total += blob.sentiment.polarity
         count += 1
 
-print("Average Polarity:", total / count)
+print("Average Polarity:", total / count if count != 0 else 0)
